@@ -1,0 +1,9 @@
+[package]
+name = "cashio_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+sea-orm = {version = "1.1.3", features = ["sqlx-postgres", "runtime-tokio-rustls", "macros"]}
+serde = { version = "1.0", features = ["derive"] }
